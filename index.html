@@ -6,6 +6,9 @@
   <link rel="stylesheet" href="css/bootstrap-responsive.css">
   <link rel="stylesheet" href="css/style.css">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
 </head>
 <body>
 
@@ -23,6 +26,7 @@
             <li><a class="navLink" href="#overview">Home</a></li>
             <li><a class="navLink" href="#about">About</a></li>
             <li><a class="navLink" href="#sponsors">Sponsors</a></li>
+            <li><a class="navLink" href="#schedule">Schedule</a></li>
             <li><a id="register-link" href="https://www.hackerleague.org/hackathons/hack-upstate">Register</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -32,9 +36,15 @@
 
 <section class="jumbotron subhead" id="overview">
   <div class="container">
-    <h1>Hack Upstate</h1>
+    <h1>Hack <br /> Upstate</h1>
     <p class="lead">Saturday April 6th till Sunday April 7th</p>
     <a href="https://www.hackerleague.org/hackathons/hack-upstate" title="Register here" class="btn btn-register">Register</a>
+    <div class="share-links">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="hackupstate">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <div class="fb-like" data-href="http://hackupstate.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+    </div>
   </div>
 </section>
 
@@ -65,7 +75,7 @@
     <hr>
     <div class="row">  
       <div class="span6">
-        <img src="http://a.tiles.mapbox.com/v3/ecandino.map-d2c1vgv0/-76.1484712539673,43.04395295426657,16/640x300.png" />  
+        <img src="http://a.tiles.mapbox.com/v3/ecandino.map-d2c1vgv0/-76.1484712539673,43.04395295426657,16/370x250.png" class="map"/>  
       </div>
       <div class="span5 offset1">
         <h3>Where</h3>
@@ -97,12 +107,39 @@ Etiam dictum neque sed diam sollicitudin nec posuere sem adipiscing. Maecenas ma
       <div class="span4"><h1>Rain</h1></div>
       <div class="span4"><h1>Z80</h1>
         <!-- <img src="http://www.z80labs.com/images/z80%20identity_fullcolor_contained_red465_ltbackground-u1889.png"/> --></div>
-      
     </div>
-
-
   </div>
 </section>    
+
+<section id="schedule">
+  <div class="container">
+    <h1 class="sponsors-header">Schedule</h1>
+    <p class="sponsors-p">Etiam dictum neque sed diam sollicitudin nec posuere sem adipiscing. Maecenas massa.</p>
+    <div class="row">
+      <div class="span6">
+        <h3>Saturday April 6th</h3>
+        <ul>
+          <li>9am: Doors open</li>
+          <li>10am: Idea pitching and team formation</li>
+          <li>10:30pm: Commence hacking</li>
+          <li>11:59pm: Cease Hacking</li>
+          <li>12:00am: Hit up a bar for post celebratory beers</li>
+        </ul>
+
+      </div>
+      <div class="span6">
+        <h3>Sunday April 7th</h3>
+        <ul>
+          <li>9:30am: Doors open</li>
+          <li>10am: Guest speaker TBD</li>
+          <li>11am: Demos, pitches and presentations</li>
+          <li>1:30pm: Awards ceremony</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+</section>
 
 <footer>
   <div class="container">
@@ -117,5 +154,13 @@ Etiam dictum neque sed diam sollicitudin nec posuere sem adipiscing. Maecenas ma
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=389421104480308";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>

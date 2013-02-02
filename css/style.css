@@ -12,16 +12,15 @@ section{
   background: url(../img/header-bg.jpg) no-repeat center -100px;
   height: 500px;
   color: #fff;
-  text-align: center;
-  background-color: #ae916e;
+  background-color: #333;
   position: fixed;
   width: 100%;
 
 }
 #overview h1{
-  text-align: center;
-  margin: 200px 0 50px;
+  margin: 100px 0 30px;
   font-size: 100px;
+  line-height: 90px;
 }
 #overview p{
   font-size: 24px;
@@ -37,6 +36,8 @@ section{
   line-height: 50px;
   background-color: #e36c5d;
   color: #fff;
+  display: block;
+  margin-bottom: 20px;
 }
 .btn-register:hover,
 .btn-register:active,
@@ -60,6 +61,9 @@ section{
   line-height: 1.5em;
   font-weight: 300;
 }
+.map{
+  width: 370px;
+}
 #sponsors{
   background-color: #fafafa;
   min-height: 300px;
@@ -77,4 +81,13 @@ section{
 .last-section{
   text-align: center;
 }
-
+footer{
+  /*background-color: #222;*/
+  min-height: 200px;
+  /*color: #fff;*/
+  padding: 10px;
+}
+.twitter-share-button{ float: left;}
+.fb-like{
+  display: block;  
+}
