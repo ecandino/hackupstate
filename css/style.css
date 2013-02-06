@@ -2,9 +2,9 @@ section{
   margin-bottom: 100px;
 }
 .site{
-  z-index: 1px;
+/*  z-index: 1;
   position: relative;
-  top: 600px;
+  top: 600px;*/
   background-color: #fff;
 }
 #overview{
@@ -13,14 +13,14 @@ section{
   height: 500px;
   color: #fff;
   background-color: #333;
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
 
 }
 #overview h1{
   margin: 100px 0 30px;
   font-size: 100px;
-  line-height: 90px;
+  line-height: 1em;
 }
 #overview p{
   font-size: 24px;
@@ -34,7 +34,7 @@ section{
   height: 50px;
   font-size: 24px;
   line-height: 50px;
-  background-color: #e36c5d;
+  background-color: #00bbdd ; /* #e36c5d;*/ 
   color: #fff;
   display: block;
   margin-bottom: 20px;
@@ -45,7 +45,7 @@ section{
 .btn-register.disabled,
 .btn-register[disabled] {
   color: #ffffff;
-  background-color: #db4532;
+  background-color: #00adcc;
 
 }
 .marketing .row{
@@ -91,3 +91,50 @@ footer{
 .fb-like{
   display: block;  
 }
+#madglory-logo{
+  margin-top: 20px;
+}
+#centerstate-logo{
+  margin-top: 60px;
+}
+#rain-logo{
+  width: 180px;
+  margin: 0 auto;
+  display: block;
+}
+#z80-logo{
+  margin: 0 auto;
+  display: block;
+  margin-top: 15px; 
+}
+
+@media (max-width: 480px) {
+  #overview{
+    height:400px;
+    position:static; 
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #overview h1{
+    font-size: 50px;
+    margin: 100px 0 10px;
+  }
+  .site{
+    position: static;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 0 20px;
+  }
+  .btn-register{
+    width: auto;
+  }
+
+}
+/*@media (min-width: 768px) and (max-width: 979px) {
+  #overview{
+    position: static;
+  }
+  .site{
+    position: static;
+  }
+}*/

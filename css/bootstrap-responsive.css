@@ -447,6 +447,14 @@
     margin-right: -20px;
     margin-left: -20px;
   }
+  #overview{
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  #overview .container{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
   .container-fluid {
     padding: 0;
   }
@@ -590,13 +598,6 @@
   body {
     padding-top: 0;
   }
-  .navbar-fixed-top,
-  .navbar-fixed-bottom {
-    position: static;
-  }
-  .navbar-fixed-top {
-    /*margin-bottom: 20px;*/
-  }
   .navbar-fixed-bottom {
     margin-top: 20px;
   }
@@ -606,7 +607,7 @@
   }
   .navbar .container {
     width: auto;
-    padding: 0;
+    padding: 0 20px;
   }
   .navbar .brand {
     padding-right: 10px;
